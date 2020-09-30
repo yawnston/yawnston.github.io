@@ -49,5 +49,5 @@ jobs:
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BRANCH: gh-pages
-          FOLDER: deploy_dist/yawnston.github.io
+          FOLDER: deploy_dist
           CLEAN: true
